@@ -1,6 +1,7 @@
 - git:
     local-name: config_utilities
     uri: git@github.com:MIT-SPARK/config_utilities.git
+    version: archive/ros_noetic
 - git:
     local-name: kimera_pgmo
     uri: git@github.com:MIT-SPARK/Kimera-PGMO.git
@@ -19,19 +20,23 @@
     uri: git@github.com:MIT-SPARK/TEASER-plusplus.git
 - git:
     local-name: spark_dsg
-    uri: git@github.com:aalto-intelligent-robotics/Spark-DSG.git
+    uri: git@github.com:RiccardoZappa/Spark-DSG
+    version: development
 - git:
     local-name: hydra
-    uri: git@github.com:aalto-intelligent-robotics/Hydra.git
+    uri: git@github.com:RiccardoZappa/Hydra
+    version: development
 - git:
     local-name: hydra_ros
-    uri: git@github.com:aalto-intelligent-robotics/Hydra-ROS.git
+    uri: git@github.com:RiccardoZappa/Hydra-ROS
+    version:Hydra_ros_panoptic
 - git:
     local-name: hydra_seg_ros
     uri: git@github.com:aalto-intelligent-robotics/Hydra-Seg-ROS.git
 - git:
     local-name: hydra_stretch
-    uri: git@github.com:aalto-intelligent-robotics/Hydra-Stretch.git
+    uri: git@github.com:RiccardoZappa/Hydra-Stretch
+    version:Hydra_stretch_panoptic
 - git:
     local-name: react
     uri: git@github.com:aalto-intelligent-robotics/REACT.git
